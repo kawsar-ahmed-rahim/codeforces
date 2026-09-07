@@ -1,31 +1,40 @@
 #include <iostream>
 #include <string>
-#include <cctype> // Required for std::isupper and std::islower
+#include <cctype>
+
+using namespace std;
 
 int main() {
-    std::string word = "Programming101";
-    
-    // Initialize counters
+
+    string word;
+    cin >> word;
+
     int capitalCount = 0;
     int smallCount = 0;
-    int otherCount = 0; // For numbers, spaces, and symbols
 
-    // Loop through every character
     for (char letter : word) {
-        if (std::isupper(letter)) {
+        if (isupper(letter)) {
             capitalCount++;
-        } else if (std::islower(letter)) {
+        } 
+        else if (islower(letter)) {
             smallCount++;
-        } else {
-            otherCount++;
         }
     }
 
-    // Print the results
-    std::cout << "Word: " << word << "\n\n";
-    std::cout << "Capital letters: " << capitalCount << "\n";
-    std::cout << "Small letters:   " << smallCount << "\n";
-    std::cout << "Other characters: " << otherCount << "\n";
+    if (capitalCount > smallCount) {
+
+        for (char &letter : word) {
+            letter = toupper(letter);
+        }
+
+    } else {
+
+        for (char &letter : word) {
+            letter = tolower(letter);
+        }
+    }
+
+    cout << word << endl;
 
     return 0;
 }
