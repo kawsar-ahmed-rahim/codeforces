@@ -9,6 +9,7 @@ int main() {
 
     while (true) {
         int x = n;
+
         bool used[10] = {false};
         bool different = true;
 
