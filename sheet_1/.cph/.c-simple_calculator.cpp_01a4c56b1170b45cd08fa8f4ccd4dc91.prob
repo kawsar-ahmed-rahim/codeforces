@@ -1,0 +1,1 @@
+{"name":"Local: c-simple_calculator","url":"e:\\cp\\codeforces\\sheet_1\\c-simple_calculator.cpp","tests":[{"id":1788976555699,"input":"5 10\n","output":"5 + 10 = 15\n5 * 10 = 50\n5 - 10 = -5\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cp\\codeforces\\sheet_1\\c-simple_calculator.cpp","group":"local","local":true}
