@@ -1,0 +1,1 @@
+{"name":"Local: v-comparison","url":"e:\\cp\\codeforces\\sheet_1\\v-comparison.cpp","tests":[{"id":1789356801347,"input":"5 > 4\n","output":"Right\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cp\\codeforces\\sheet_1\\v-comparison.cpp","group":"local","local":true}
