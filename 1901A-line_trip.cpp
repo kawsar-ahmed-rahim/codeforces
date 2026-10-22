@@ -1,20 +1,27 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int m,n,x;
-    cin >> m;
-    for(int i=1; i<m;i++){
+    int t;
+    cin >> t;
+
+    while (t--) {
+        int n, x, a[100];
         cin >> n >> x;
-        int arr[n];
-        int prev = 0;
-        for(int j=1;j<n;j++){
-            cin >> arr[j];
-            int r = arr[j]-prev;
-            int ans = max(r)
-            prev = arr[j];
+
+        for (int i = 0; i < n; i++) {
+            cin >> a[i];
         }
 
+        int mx = a[0];
+
+        for (int i = 1; i < n; i++) {
+            mx = max(mx, a[i] - a[i - 1]);
+        }
+
+        mx = max(mx, 2 * (x - a[n - 1]));
+
+        cout << mx << endl;
     }
 
     return 0;
