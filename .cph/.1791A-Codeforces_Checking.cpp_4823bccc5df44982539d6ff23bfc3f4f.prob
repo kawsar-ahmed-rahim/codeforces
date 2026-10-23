@@ -1,1 +1,0 @@
-{"name":"Local: 1791A-Codeforces_Checking","url":"e:\\cp\\codeforces\\1791A-Codeforces_Checking.cpp","tests":[{"id":1792424371676,"input":"10\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\n","output":"NO\nNO\nYES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cp\\codeforces\\1791A-Codeforces_Checking.cpp","group":"local","local":true}
